@@ -784,11 +784,6 @@ section.tab-section {
     transform: rotate(225deg);
 }
 
-.rt-container {
-    margin: 0 auto;
-    width: 76%;
-}
-
 .csslider ul li img {
     height: auto;
     width: auto;
@@ -799,6 +794,14 @@ section.tab-section {
     border: 1px solid #ddd;
     border-radius: 5px !important;
     margin-bottom: 5px;
+}
+
+.gallery-content img {
+	padding: 10px;
+	border: 1px solid #eee;
+	height: 200px;
+	margin-bottom: 30px;
+	width: 350px;
 }
 
 /***** medium Layout *****/
