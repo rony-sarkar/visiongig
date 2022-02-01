@@ -328,38 +328,6 @@ img {
     text-transform: capitalize;
 }
 
-.product-dec ul {
-    margin-bottom: 30px;
-}
-
-.sidebar-box ul {
-    margin: 0 20px;
-}
-
-.product-dec ul,
-.tab-list ul {
-    margin: 0 0 10px;
-}
-
-.product-dec ul li,
-.tab-list ul li {
-    list-style: none;
-    padding: 5px 20px;
-    position: relative;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.product-dec ul li::before,
-.tab-list ul li::before,
-.sidebar-box ul li::before {
-    position: absolute;
-    content: "\f046";
-    font-family: fontawesome;
-    left: 0;
-    color: #000;
-}
-
 .tl {
     text-align: left !important;
 }
