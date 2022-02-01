@@ -342,8 +342,7 @@ img {
 }
 
 .product-dec ul li,
-.tab-list ul li,
-.sidebar-box ul li {
+.tab-list ul li {
     list-style: none;
     padding: 5px 20px;
     position: relative;
@@ -367,107 +366,6 @@ img {
 
 /*  ================================
         product area end
-    ================================ */
-
-/*  ================================
-        tab area start
-    ================================ */
-
-.tab-part-area {
-    padding: 30px 0;
-}
-
-section.tab-section {
-    display: none;
-    padding: 20px 30px 15px;
-    border: 1px solid #ddd;
-    color: #1a1a1a;
-    overflow: hidden;
-}
-
-.tab-part-area input {
-    display: none;
-}
-
-.tab-part-area label {
-    color: #1a1a1a;
-    font-size: 15px;
-    font-weight: 600;
-    border: 1px solid transparent;
-    display: inline-block;
-    margin: 0 0 -1px;
-    padding: 10px 27px;
-    text-align: center;
-    background-color: #F8F8FA;
-    border: 1px solid #ddd;
-    font-family: 'Open Sans', sans-serif;
-    transition: 0.5s;
-}
-
-.tab-part-area label:hover {
-    cursor: pointer;
-    color: #fff;
-    border: 1px solid #99A758;
-    background-color: #99A758;
-}
-
-.tab-part-area input:checked + label {
-    color: #fff;
-    border: 1px solid #99A758;
-    background-color: #99A758;
-}
-
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4,
-#tab5:checked ~ #content5 {
-    display: block;
-}
-
-.tab-section p {
-    color: #3D3D3D;
-    font-weight: 500;
-}
-
-
-.tab-section p a {
-    color: #000;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-/*  ================================
-        tab area end
-    ================================ */
-
-/*  ================================
-        care area start
-    ================================ */
-
-.care-area {
-    padding: 0 0 30px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.single-care i {
-    font-size: 30px;
-    color: #000;
-}
-
-.single-care h3 {
-    text-transform: uppercase;
-    color: #1a1a1a;
-    padding: 10px 0;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-/*  ================================
-        care area end
     ================================ */
 
 /*  ================================
@@ -517,8 +415,7 @@ section.tab-section {
     font-size: 14px;
 }
 
-.footer-widget ul li a,
-.sidebar-box ul li a {
+.footer-widget ul li a {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -931,14 +828,6 @@ section.tab-section {
     .product-dec h4,
     .single-care h3 {
         font-size: 16px;
-    }
-
-    .tab-area label {
-        width: 100%;
-    }
-
-    section.tab-section {
-        padding: 30px 10px;
     }
 
     .ex {
