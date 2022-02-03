@@ -310,6 +310,12 @@ img {
     border: 1px solid #D1D1D1;
 }
 
+.product-dec h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
 .product-dec h3 {
     font-family: 'Raleway', sans-serif;
     color: #000;
@@ -317,7 +323,6 @@ img {
     margin: 30px 0 10px;
     font-weight: 600;
 }
-
 .product-dec h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
